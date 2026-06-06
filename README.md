@@ -36,12 +36,14 @@ ANN marginally outperforms Random Forest on ROC-AUC.
 ```
 customer-churn-prediction/
 ├── customer_churn_prediction.ipynb
+├── Churn_Modelling.csv
 ├── models/
 │   ├── ann_churn_model.keras
 │   ├── rf_churn_model.pkl
 │   └── scaler.pkl
 ├── plots/
 │   ├── roc_curves.png
+│   ├── ann_training_curves.png
 │   ├── confusion_matrices.png
 │   ├── feature_importance.png
 │   └── class_distribution.png
@@ -53,8 +55,8 @@ customer-churn-prediction/
 ## How to Run
 
 ```bash
-git clone https://github.com/yourusername/customer-churn-prediction
-cd customer-churn-prediction
+git clone https://github.com/RudraKsh0091/Customer-Churn-Prediction
+cd Customer-Churn-Prediction
 pip install numpy pandas scikit-learn tensorflow matplotlib seaborn joblib
 # Open and run customer_churn_prediction.ipynb
 ```
